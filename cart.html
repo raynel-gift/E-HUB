@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>E-Shop – Cart</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<header>
+  <nav>
+    <div class="logo">E-Shop</div>
+    <a href="index.html" class="cart-link">← Back to Shop</a>
+  </nav>
+</header>
+
+<main>
+  <h1>🛒 Your Cart</h1>
+
+  <div id="cartItems"></div>
+
+  <div style="text-align:center; margin:2rem 0;">
+    <h2>Total: UGX <span id="totalPrice">0</span></h2>
+    <a href="checkout.html">
+      <button style="padding:1rem 2rem; font-size:1.1rem; background:#198754;
+                     color:#fff; border:none; border-radius:8px; cursor:pointer;">
+        Proceed to Checkout →
+      </button>
+    </a>
+  </div>
+</main>
+
+<script src="products.js"></script>
+</body>
+</html>
