@@ -205,7 +205,7 @@ button[type="submit"]:hover { background: #1b5e20; }
 }
 
 .list a {
-    font-size: 9px;
+    font-size: 12px;
     color: black;
     text-decoration: none;
     margin: 0 20px;
