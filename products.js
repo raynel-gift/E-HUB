@@ -11,6 +11,7 @@ const products = [
   { id: 5, name: "Gym Wear",     price: 60000,   category: "sports",    image: "images/gim.jpeg" },
   { id: 6, name: "Work Out Set", price: 42000,   category: "sports",    image: "images/work.jpeg" },
   { id: 7, name: "Free Style",   price: 38000,   category: "clothings", image: "images/free.PNG" },
+  { id: 8, name: "duvet covers", price: 50000,  category: "beddings", image: "images/blankents.jpeg"},
 ];
 
 // --- CART HELPERS ---
