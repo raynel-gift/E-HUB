@@ -203,3 +203,22 @@ button[type="submit"]:hover { background: #1b5e20; }
     color: #777;
     margin: 4rem 0;
 }
+
+
+
+
+/* FOOTER */
+.site-footer {
+  background: #0d0d0d;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  padding: 20px;
+  text-align: center;
+}
+ 
+.copyright {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.875rem;
+  font-weight: 300;
+  color: #888;
+  letter-spacing: 0.05em;
+}
