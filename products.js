@@ -37,7 +37,7 @@ function addToCart(id) {
   updateCartCounter();
   const btn = document.querySelector(`.add-btn[data-id="${id}"]`);
   if (btn) {
-    btn.textContent = "✔ Added!";
+    btn.textcontent = "✔ Added!";
     btn.style.background = "#198754";
     setTimeout(() => { btn.textContent = "🛒 Add to Cart"; btn.style.background = ""; }, 1500);
   }
@@ -48,7 +48,7 @@ function  renderProducts(list) {
   const grid = document.getElementById("productGrid");
   if (!grid) return;
   grid.innerHTML = list.length ? list.map(p => `
-    <div class="product-card">
+    <div  class="product-card">
       <img src="${p.image}" alt="${p.name}" onerror="this.alt='No image'">
       <div class="info">
         <h3>${p.name}</h3>
