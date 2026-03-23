@@ -44,7 +44,7 @@ function addToCart(id) {
 }
 
 // --- INDEX PAGE ---
-function renderProducts(list) {
+function  renderProducts(list) {
   const grid = document.getElementById("productGrid");
   if (!grid) return;
   grid.innerHTML = list.length ? list.map(p => `
