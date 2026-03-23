@@ -154,7 +154,7 @@ function initCheckoutPage() {
     if (!valid) return;
     localStorage.removeItem("cart");
     updateCartCounter();
-    alert("✅ Order placed! Thank you for shopping with us.");
+    alert("✅ Order placed!Thank you for shopping with us.");
     window.location.href = "index.html";
   });
 }
